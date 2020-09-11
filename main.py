@@ -11,5 +11,5 @@ secs = t_diff.total_seconds()
 
 task = Timer(secs, crawler.scrape())
 task.terminate()
-#task.start()
+task.start()
 
